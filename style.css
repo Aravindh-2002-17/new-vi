@@ -567,7 +567,6 @@ background: linear-gradient(95deg, #000a04, #014f0f);
   display: flex;
   align-items: start;
   margin-right: 100px;
-  border: 2px solid red;
  
   
 
@@ -651,6 +650,8 @@ hr{
 }
 .footer-logo{
   margin: 10px 90px 10px -50px;
+  
+  
 }
 .newsletter{
 
@@ -957,7 +958,6 @@ margin-right: 50px;
     .logo img{
 
       align-self: flex-start;
-  
        width: 100px;
     
       
@@ -1209,14 +1209,15 @@ body{
     display: flex;
     background:#0c2c22;
     justify-content: space-around;
-    width: 88%;
     padding:  10px 20px;
+  
     
 
   }
   .navbar ul a{
     display: inline-block;
     margin: 0px 8px;
+    
   }
   .bar{
     display: none;
@@ -1243,7 +1244,8 @@ body{
 
 .logo img{
   width: 15vw;
-  
+
+   width: 150px;
     
 }
 
@@ -1268,6 +1270,7 @@ body{
     padding: 10px;
     margin: 15px;
     width: 50%;
+   
     
     
 }
@@ -1308,13 +1311,14 @@ background: linear-gradient(95deg, #000a04, #014f0f);
     top: 50px;
     padding: 0px;
     text-align: start;
-    margin-top: 50px;
+    margin-top: 80px;
     margin-left: 5vw;
     height: 100px;
-    font-size: 30px;
+    font-size: 40px;
     color: #f7f7f7;
     font-size: 50px;
     font-weight: 400;
+
 }
 /** Text Gradient Example */ 
 .text-gradient{
@@ -1617,7 +1621,7 @@ background: linear-gradient(95deg, #000a04, #014f0f);
   background: #EFEFEF;
   margin-bottom: 60x;
   border: 01px solid white;
-    border: 2px solid red;
+
 
 }
 
@@ -1763,7 +1767,7 @@ background: linear-gradient(95deg, #000a04, #014f0f);
 .links a{
   color:  #69BF4B;
   text-decoration: none;  
-  line-height: 40px;
+  line-height: 30px;
   margin-bottom: -20px;
   margin-left: 0px;
 }
@@ -1798,11 +1802,16 @@ hr{
   opacity: 0.2;
   
 }
-.footer-logo{
+.footer-logo img{
+    margin-bottom: 10px;
+   width: 170px;
+  
  
 }
 .newsletter{
   margin: 0px 100px 10px -0px;
+
+   margin-bottom: 20px;
 
 
 }
@@ -1834,6 +1843,7 @@ input:focus{
 .f1{
   width: 300px;
   margin-bottom: 90px;
+   
 }
 .copywright{
   display: flex;
@@ -1911,16 +1921,16 @@ height: 20px;
   .text {
     font-size: 15px;
     top: 30px;
-    margin-left: 26px;
-    margin-top: 10;
+    margin-left: 36px;
+    margin-top: 50px;
     line-height: 1.3;
   }
 
   .new-contact {
     top: auto;
     right: auto;
-    bottom:40px;
-    left: 50px;
+    bottom:70px;
+    left: 60px;
     transform: translateX(-50%);
     font-size: 11px;
     padding: 5px 15px;
@@ -2119,7 +2129,7 @@ height: 20px;
       display: block;
       position: absolute;
       right: 20px;
-      top: 40px;
+      top: 60px;
     }
   .navbar ul.showmenu{
   display: flex;   /* use flex instead of block */
@@ -2196,7 +2206,7 @@ height: 20px;
         flex-direction: column;
         width: 100%;
         text-align: left;
-        margin-left: 50px;
+        margin-left: 70px;
         margin-bottom: 50px;
     
      
@@ -2273,6 +2283,7 @@ height: 20px;
 .b1{
   margin-left: 4px;
   margin-top: 50px;
+  
 }
 .calender {
   margin-bottom: 40px;
@@ -2286,9 +2297,9 @@ height: 20px;
 .section-2-footer{
   display: flex;
   flex-direction: column;
-  
-
-
+}
+.tools{
+   margin-bottom: 50px;
 }
 
 
@@ -2334,6 +2345,9 @@ height: 20px;
   .footer-logo {
    
     text-align: start;
+     margin-left: 0px;
+     width: 10px;
+     
       }
 
   hr {
@@ -2421,6 +2435,7 @@ height: 20px;
     justify-content: start;
     text-align: start;
     margin-left: none;
+    
       }
 
   hr {
@@ -2464,6 +2479,7 @@ height: 20px;
     display :flex;
     flex-direction: row;
     width: 50%;
+    
  
 
     
@@ -2506,7 +2522,7 @@ height: 20px;
     display: none;
     flex-direction: column;
     gap: none;
-    border: 2px solid red;
+  
 
 
     
@@ -2537,20 +2553,25 @@ height: 20px;
   .footer-logo-2{
     background: yellow;
     border: 2px white solid;
+    
   }
 
 }
 .p1{
   font-size: 15px;
-  letter-spacing: 2px; /* Adjust spacing between letters */
+  
+   margin-top: 5px;
+/* Adjust spacing between letters */
 }
 .insect{
     font-size: 15px;
-    letter-spacing: 2px;
+ 
+  
 }
 .p2{
    font-size: 15px;
-  letter-spacing: 2px;
+  
+
 }
 .footer-submiit{
   display: flex;
@@ -2564,13 +2585,15 @@ textarea::placeholder {
 }
 @media all and(max-width:768px){
       .head-logo{
-         border: 2px solid red;
+        border: 2px solid red;
          background: white;
       }
       .new-contact{
-        border: 2px solid red;
       }
       .img1{
         border: 2px solid yellow;
+      }
+      .b1{
+         border: 2px solid red;
       }
 }
