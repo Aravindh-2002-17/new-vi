@@ -20,7 +20,7 @@ body{
 
 .navbar{
     display: flex;
-    background:#0c2c22;
+    background:#164234;
     justify-content: space-around;
     padding:    3px;
     margin-top: -25px;
@@ -33,6 +33,7 @@ body{
     display: inline-block;
     margin: 0px 12px;
     font-size: 15px;
+    z-index: 1000;
     
 
   }
@@ -50,7 +51,6 @@ body{
   .menu-line{
     height: 3px;
     width: 20px;
-    background-color: darkslateblue;
     margin-bottom: 3px;
     
 
@@ -351,7 +351,7 @@ background: linear-gradient(95deg, #000a04, #014f0f);
       
     }
     .green{
-        background: #69BF4B;
+        background: #69C04B;
         color: white;
         border-radius: 50px;
         padding: 10px 40px;
@@ -463,7 +463,7 @@ background: linear-gradient(95deg, #000a04, #014f0f);
 .footer{
   display: flex;
   flex-direction: column;
-  background: #164234;
+  background: #072B18;
   width: 100%;
 }
 .b1{
@@ -707,7 +707,7 @@ height: 20px;
 margin-right: 50px;
 }
 .btn{
-  background: green;
+  background: 69C04B;
   border-radius: 20px;
   text-decoration: none;
   font-size: 15px;
@@ -943,8 +943,9 @@ margin-right: 50px;
   @media all and (max-width:768px){
     .navbar{
       flex-direction: column;
-  
       padding-bottom: 10px;
+      position: fixed;
+      z-index: 1000;
 
     }
     .navbar a{
@@ -959,6 +960,7 @@ margin-right: 50px;
 
       align-self: flex-start;
        width: 100px;
+       margin-top: 19px;
     
       
     }
@@ -1059,7 +1061,7 @@ margin-right: 50px;
   .footer{
   display: flex;
   flex-direction: column;
-  background: #164234;
+  background: #072B18;
   width: 100%;
 }/* --- Default (desktop) stays same --- */
 .badges {
@@ -1180,11 +1182,6 @@ margin-right: 50px;
   color: white;
   margin-top:-10px;
   border: none;
-
-  
-
-  
-  
 }
 
 *{
@@ -1233,7 +1230,7 @@ body{
   .menu-line{
     height: 3px;
     width: 20px;
-    background-color: darkslateblue;
+    background-color: #072B18;
     margin-bottom: 3px;
 
   }
@@ -1270,6 +1267,7 @@ body{
     padding: 10px;
     margin: 15px;
     width: 50%;
+    
    
     
     
@@ -1643,7 +1641,7 @@ background: linear-gradient(95deg, #000a04, #014f0f);
 .footer{
   display: flex;
   flex-direction: column;
-  background: #164234;
+  background: #072B18;
   width: 100%;
 }
 .b1{
@@ -1761,6 +1759,8 @@ background: linear-gradient(95deg, #000a04, #014f0f);
   justify-content: space-between;
   gap: 50px;
   color: white;
+ 
+  margin-left:10px;
 
 
 }
@@ -1804,7 +1804,7 @@ hr{
 }
 .footer-logo img{
     margin-bottom: 10px;
-   width: 170px;
+   width: 240px;
   
  
 }
@@ -1843,6 +1843,7 @@ input:focus{
 .f1{
   width: 300px;
   margin-bottom: 90px;
+  margin-left: 10px;
    
 }
 .copywright{
@@ -1857,9 +1858,10 @@ input:focus{
 display: flex;
 width: 25px;
 height: 20px;
+
 }
 .btn{
-  background: green;
+  background: #69C04B;
   border-radius: 20px;
   text-decoration: none;
   font-size: 15px;
@@ -2092,6 +2094,7 @@ height: 20px;
   @media all and (max-width:640px){
     .navbar{
       flex-direction: column;
+         width: 91%;
       
       
   
@@ -2106,6 +2109,7 @@ height: 20px;
       
       
       
+      
     
     
     }
@@ -2113,6 +2117,7 @@ height: 20px;
       display: none;
       flex-direction: column;
       text-align: start;
+      
     
 
       
@@ -2129,10 +2134,16 @@ height: 20px;
       display: block;
       position: absolute;
       right: 20px;
-      top: 60px;
+      top: 80px;
+   
+    }
+    .menu:hover{
+      color: #64B000;
+      text-decoration: solid;
     }
   .navbar ul.showmenu{
   display: flex;   /* use flex instead of block */
+  
 
 }
 .contact-btn{
@@ -2235,7 +2246,7 @@ height: 20px;
   .footer{
   display: flex;
   flex-direction: column;
-  background: #164234;
+  background: #072B18;
   width: 100%;
 }/* --- Default (desktop) stays same --- */
 .badges {
@@ -2299,7 +2310,7 @@ height: 20px;
   flex-direction: column;
 }
 .tools{
-   margin-bottom: 50px;
+   margin-bottom: 40px;
 }
 
 
@@ -2388,11 +2399,16 @@ height: 20px;
   .copywright p {
     margin: 0;
     text-align: start;
+    margin-top: -40px;
+    margin-left: 10px;
     
   }
 
   .copywright img {
     margin: 0;
+    width: 30px;
+    margin-top: -40px;
+    margin-right: 10px;
   }
 }
 
@@ -2422,6 +2438,7 @@ height: 20px;
 .links a{
   color: #69BF4B;
   text-align: start;
+
 }
 }
    
@@ -2470,8 +2487,6 @@ height: 20px;
 
   .copywright p {
     text-align: start;
-    
-  
     width: auto;   
   }
 
@@ -2500,6 +2515,9 @@ height: 20px;
     gap: 1px;
     font-size: 14px;
     color: yellow;
+     margin-top: -40px;
+    margin-left: 10px; margin-top: -40px;
+    margin-left: 10px;
   }
 
   input {
@@ -2544,15 +2562,15 @@ height: 20px;
     justify-content: center;
     align-items: center;
     gap:8px;
-    border: 2px solid yellow;
+   
   }
   .copywright p{
     display: none;
   }
 
   .footer-logo-2{
-    background: yellow;
-    border: 2px white solid;
+  
+   
     
   }
 
@@ -2585,15 +2603,14 @@ textarea::placeholder {
 }
 @media all and(max-width:768px){
       .head-logo{
-        border: 2px solid red;
          background: white;
       }
       .new-contact{
       }
       .img1{
-        border: 2px solid yellow;
+  
       }
       .b1{
-         border: 2px solid red;
+       
       }
 }
